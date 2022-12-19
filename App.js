@@ -31,7 +31,7 @@ const r = OTP;
 console.log(r);
  
 const sendSmsOtp = async (mobileNumber, otp) => {
-  const url = 'http://34.131.139.104/SMS/msg';
+  const url ='Use your own Api';
   let returnData;
   console.log('send sms otp', mobileNumber, otp);
   const bodyData = {
