@@ -35,7 +35,7 @@ const sendSmsOtp = async (mobileNumber, otp) => {
   let returnData;
   console.log('send sms otp', mobileNumber, otp);
   const bodyData = {
-    "mobileNumber" : "916377966427",
+    "mobileNumber" : "9163********",
     "otp" :  r
   };
   const response = await axios.post(url, bodyData);
